@@ -1,0 +1,21 @@
+body, h1, h2, h3, ul, ol, li, p {
+	margin: 0;
+	font-style: "Trebuchet MS";
+}
+
+* {
+box-sizing: border-box;
+}
+
+a {
+text-decoration: none;
+}
+
+.container {
+width: 1024px;
+margin: 0 auto;
+}
+
+img {
+max-width: 100%;
+}
