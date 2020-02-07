@@ -38,7 +38,7 @@ h2 {
 	margin: 0 auto;
 }
 
-.desc .container, .desc__header, .desc__place, .desc__time, .desc__position, .desc__ticket, .materials__container {
+.desc .container, .desc__header, .desc__place, .desc__time, .desc__position, .desc__ticket {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
