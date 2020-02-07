@@ -19,3 +19,31 @@ margin: 0 auto;
 img {
 max-width: 100%;
 }
+
+.header {
+	background-color: #000
+}
+
+.header .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 120px;
+}
+
+.header__left {
+	width: 180px;
+}
+
+.header__link {
+	display: inline-block;
+	font-size: 23px;
+	color: #fff;
+	margin: 0 30px;
+	transition: .6s;
+}
+
+.header__link:hover {
+	color: #ff0000;
+	transform: scale(1.3); 
+}

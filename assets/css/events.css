@@ -19,3 +19,115 @@ margin: 0 auto;
 img {
 max-width: 100%;
 }
+
+.events {
+	background-color: #000;
+	color: #fff;
+	padding: 30px;
+}
+
+.events__title {
+	margin-bottom: 20px;
+}
+
+.events__link {
+	color: #fff;
+	transition: .7s;
+}
+
+.events__link:hover {
+	color: #ff0000;
+	text-decoration: underline;
+}
+
+.events__doings {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.event {
+	position: relative;
+	width: calc(100vw - 150px - 680px);
+	height: 450px;
+	background: no-repeat;
+	background-size: cover;
+}
+
+.event__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	height: 100%;
+	margin-left: 20px;
+	
+}
+
+.event.-s {
+	width: 580px;
+	background-image: url(../img/linch.jpg);
+}
+
+.event.-fest {
+	background-image: url(../img/fest.jpg);
+}
+
+.event__type-block {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	font-weight: 900;
+}
+
+.event__type-block.-red {
+	background-color: #ff0000;
+}
+
+.event__info {
+	margin-bottom: 20px;
+}
+
+.event__date {
+	font-size: 30px;
+	margin-bottom: 10px;
+	transition: .7s;
+}
+
+.event__date:hover {
+	color: #ff0000;
+}
+
+.event__name {
+	font-size: 30px;
+	margin-bottom: 10px;
+	transition: .7s;	
+}
+.event__name:hover {
+	color: #ff0000;
+}
+
+.event__subtitle {
+	font-size: 20px;
+	text-decoration: underline;
+	transition: .7s;
+}
+
+.event__subtitle:hover {
+	color: #ff0000;
+}
+
+.events__btn {
+	width: calc(100vw - 150px);
+	height: 70px;
+	background-color: #000;
+	font-size: 24px;
+	color: #8f8f8f;
+	border: 2px solid #8f8f8f;
+	transition: .7s;
+}
+
+.events__btn:hover {
+	font-size: 26px;
+}

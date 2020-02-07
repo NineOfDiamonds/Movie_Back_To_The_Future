@@ -19,3 +19,49 @@ margin: 0 auto;
 img {
 max-width: 100%;
 }
+
+.materials {
+	height: 700px;
+	margin-top: 65px;
+}
+
+.materials__container {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+
+.gallery {
+	width: 50%;
+	margin-right: 15px;
+}
+
+.gallery__photo {
+	height: 500px;
+	width: 100%;
+	max-width: 750px;
+	background: no-repeat;
+	background-size: cover;
+	background-image: url(../img/fake.jpg);
+}
+
+.others {
+	margin-right: 31px;
+}
+
+.others__links {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.others__link {
+	text-decoration: underline;
+	color: #000;
+	transition: .5s;
+}
+
+.others__link:hover {
+	color: #f72851;
+	font-size: 23px;
+}
